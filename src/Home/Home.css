@@ -1,0 +1,22 @@
+:root {
+  --grey: #e2f1f1;
+  --black: ##5a5a5a;
+  --green: #3d8d8f;
+}
+
+.Home {
+  max-width: 1080px;
+  max-height: 720px;
+  margin: 0 auto;
+  padding: 40px;
+  font-family: "Roboto", sans-serif;
+  background-color: var(--grey);
+}
+
+.weatherDetails--container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
