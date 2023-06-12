@@ -12,14 +12,14 @@ function WeatherDetails(props) {
     "Saturday",
   ];
   let day = weekday[today.getDay()];
-  let hours = today.getHours();
+  // let hours = today.getHours();
   let minutes = today.getMinutes();
 
   if (minutes < 10) {
     minutes = `0${minutes}`;
   }
 
-  let time = `${day} - ${hours}: ${minutes} `;
+  let time = `${day} - ${props.location.localtime} `;
   return (
     <div className="weatherDetails">
       <div className="weatherDescription">

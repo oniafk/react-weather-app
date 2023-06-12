@@ -44,7 +44,6 @@ function Forecast() {
 
 export { Forecast };
 
+// // object Destructuring
 
-// object Destructuring
-
-const {day,date } = item;
+// const {day,date } = item;
