@@ -11,7 +11,6 @@ function SearchBar({ onSearch }) {
 
   const onChange = (event) => {
     setCode(event.target.value);
-    console.log(event.target.value);
   };
 
   return (
@@ -23,9 +22,7 @@ function SearchBar({ onSearch }) {
         onChange={onChange}
       ></input>
       <span>
-        <button type="submit" onClick={() => console.log("click")}>
-          Search
-        </button>
+        <button type="submit">Search</button>
       </span>
     </form>
   );

@@ -23,8 +23,6 @@ function Home() {
       API = `https://api.weatherapi.com/v1/current.json?key=${API_KEY}&q=London&aqi=no`;
     }
 
-    console.log(code + "code");
-
     setTimeout(() => {
       axios
         .get(`${API}`)
@@ -44,8 +42,6 @@ function Home() {
   const handleSearch = (searchCode) => {
     setCode(searchCode);
   };
-
-  console.log(posts);
 
   if (loading) {
     return <Loading />;
