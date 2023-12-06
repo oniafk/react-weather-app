@@ -8,7 +8,7 @@ function Loading() {
       <h1>tap.</h1>
       <div className="container">
         <div className="scene">
-          <span className="loading-label">Loading...</span>
+          <span className="loading-label">Loading... (click me... :D)</span>
 
           <div
             className="bar"
