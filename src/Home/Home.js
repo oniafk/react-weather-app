@@ -12,7 +12,7 @@ function Home() {
   const [code, setCode] = useState("London");
   const [posts, setPosts] = useState([]);
   const [loading, setLoading] = useState(true);
-  const API_KEY = "1a96c1fc1e464d04b6763726230106";
+  const API_KEY = process.env.REACT_APP_API_KEY;
 
   useEffect(() => {
     let API;
